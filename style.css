@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  font-style: normal;
+  margin: 2px;
+  padding: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.caixa-cur{
+  border-bottom: 1px solid black;
+}
+
+span{
+  color: yellow;
+}
+
+.links{
+  float: right;
+}
+
+.contato{
+  margin: 8px;
+  padding: 24px;
+}
+
+.nick{
+  border-radius: 50%;
+  float: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.introduction{
+  text-align: center;
+}
